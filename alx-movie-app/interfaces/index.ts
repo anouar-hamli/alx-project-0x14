@@ -1,10 +1,10 @@
 import { ReactNode } from "react";
 
 export interface ComponentProps {
-  children: ReactNode;
+  children: ReactNode
 }
 
 export interface ButtonProps {
-  title: string;
-  action?: () => void;
+  title: string
+  action?: () => void
 }

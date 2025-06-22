@@ -6,6 +6,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-[#171D22] text-white py-10 px-6 md:px-10 lg:px-20">
       <div className="flex flex-col md:flex-row justify-between items-center w-full">
+        {/* Footer Logo */}
         <h2 className="text-xl md:text-4xl font-semibold mb-4 md:mb-0">
           Cine<span className="text-[#E2D609]">Seek</span>
         </h2>
@@ -34,6 +35,7 @@ const Footer: React.FC = () => {
         <p>&copy; 2024 CineSeek. All rights reserved.</p>
       </div>
     </footer>
+
   );
 };
 
